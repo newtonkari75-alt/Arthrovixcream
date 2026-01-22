@@ -265,7 +265,8 @@
                     <div class="flex items-center justify-center gap-2 cursor-pointer" onclick="window.scrollTo(0,0)">
                          <div class="flex items-center gap-2">
                              <img src="images/arthrovix_logo.png" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" alt="Arthrovix Logo" class="h-10 md:h-12 w-auto object-contain">
-                             <span style="display:none" class="text-3xl font-black text-brand-black tracking-tighter">Arthrovix<span class="text-brand-blue">Cream</span></span>
+                             <!-- Removed font-black, changed to font-normal -->
+                             <span style="display:none" class="text-3xl font-normal text-brand-black tracking-tighter">Arthrovix<span class="text-brand-blue">Cream</span></span>
                          </div>
                     </div>
                 </header>
@@ -280,7 +281,8 @@
                     <div class="mb-4 lg:mb-0 relative group">
                         
                          <!-- Video Container -->
-                         <div id="product-media" class="relative w-full aspect-[4/5] md:aspect-square rounded-xl overflow-hidden">
+                         <!-- Adjusted width for mobile: w-[65%] mx-auto -->
+                         <div id="product-media" class="relative w-[65%] sm:w-[60%] lg:w-full mx-auto aspect-[4/5] md:aspect-square rounded-xl overflow-hidden">
                             <video src="images/arthrovix.mp4" poster="images/Arthrovix.png" autoplay muted loop playsinline class="w-full h-full object-cover">
                                 Your browser does not support the video tag.
                             </video>
