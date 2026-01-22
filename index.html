@@ -8,16 +8,6 @@
     <!-- 1. TECHNICAL PERFORMANCE & PRELOADING -->
     <!-- ============================================== -->
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17879355180"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'AW-17879355180');
-    </script>
-
     <!-- DNS Prefetch & Preconnect (Speed Optimization) -->
     <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
     <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
@@ -346,7 +336,7 @@
 
                     <!-- Additional Copy Block -->
                     <div class="mb-6">
-                        <h3 class="text-lg font-bold text-brand-black mb-2">Why Australians Choose Arthrovix</h3>
+                        <h3 class="text-lg font-bold text-brand-black mb-2">Why Choose Arthrovix</h3>
                         <p class="text-gray-600 text-base leading-relaxed mb-3">
                             Designed for real life — workdays, workouts, long walks, and everyday movement.
                         </p>
@@ -358,25 +348,14 @@
                     <!-- CTA Section -->
                     <div class="lg:bg-gray-50 lg:p-6 lg:rounded-xl lg:border lg:border-gray-200 transition-all">
                         
-                        <div class="flex flex-col sm:flex-row gap-3 mb-4">
-                            <!-- Button 1 -->
-                            <button onclick="scrollToSelector()" class="flex-1 bg-brand-blue text-white text-lg font-bold py-4 rounded-xl shadow-lg hover:shadow-xl hover:bg-blue-600 transition transform active:scale-95 cursor-pointer uppercase tracking-wide flex items-center justify-center gap-2">
+                        <div class="flex flex-col gap-3 mb-0">
+                            <!-- Button 1 (Now Full Width) -->
+                            <button onclick="scrollToSelector()" class="w-full bg-brand-blue text-white text-lg font-bold py-4 rounded-xl shadow-lg hover:shadow-xl hover:bg-blue-600 transition transform active:scale-95 cursor-pointer uppercase tracking-wide flex items-center justify-center gap-2">
                                 <span>Claim Offer Today</span>
                                 <i class="fas fa-arrow-down animate-bounce"></i>
                             </button>
-
-                            <!-- Button 2 -->
-                            <button onclick="goToInfo()" class="flex-1 bg-transparent border-2 border-brand-blue text-brand-blue text-lg font-bold py-4 rounded-xl hover:bg-blue-50 transition transform active:scale-95 cursor-pointer uppercase tracking-wide">
-                                Read More Info
-                            </button>
                         </div>
-
-                        <!-- Microcopy -->
-                        <div class="text-center">
-                            <p class="text-[10px] lg:text-xs text-gray-500 font-medium flex items-center justify-center gap-1.5 flex-wrap">
-                                <span class="whitespace-nowrap"><i class="fas fa-truck-fast"></i> Fast Shipping from the U.S.</span>
-                            </p>
-                        </div>
+                        <!-- Removed Microcopy and Read More Button -->
                     </div>
 
                 </div>
